@@ -2,7 +2,8 @@
   "name": "rollup-babel-jest-setup",
   "version": "1.0.0",
   "description": "",
-  "main": "build/index.js",
+  "main": "build/index.cjs.js",
+  "module": "build/index.es.js",
   "scripts": {
     "test": "jest",
     "babel": "babel src -d babel-build",
