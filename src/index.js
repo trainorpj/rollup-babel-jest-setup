@@ -12,3 +12,5 @@ const wowMath = (x, y) => {
 };
 
 wowMath(7, 5);
+
+export default wowMath;
